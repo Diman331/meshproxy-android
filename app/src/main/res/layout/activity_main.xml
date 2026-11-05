@@ -15,14 +15,14 @@
         android:layout_marginBottom="32dp"/>
 
     <RadioGroup
-        android:id="@+x/radioGroupMode"
+        android:id="@+id/radioGroupMode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginBottom="32dp">
 
         <RadioButton
-            android:id="@+x/radioClient"
+            android:id="@+id/radioClient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
@@ -30,7 +30,7 @@
             android:textSize="18sp"/>
 
         <RadioButton
-            android:id="@+x/radioSource"
+            android:id="@+id/radioSource"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/title_source"
@@ -38,7 +38,7 @@
             android:layout_marginTop="12dp"/>
 
         <RadioButton
-            android:id="@+x/radioAuto"
+            android:id="@+id/radioAuto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/title_auto"
@@ -47,7 +47,7 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+x/textViewStatus"
+        android:id="@+id/textViewStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/status_stopped"
@@ -55,7 +55,7 @@
         android:layout_marginBottom="16dp"/>
 
     <TextView
-        android:id="@+x/textViewStats"
+        android:id="@+id/textViewStats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/traffic_stats"
@@ -64,7 +64,7 @@
         android:layout_marginBottom="32dp"/>
 
     <Button
-        android:id="@+x/buttonToggle"
+        android:id="@+id/buttonToggle"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="@string/start_network"
