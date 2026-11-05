@@ -30,11 +30,12 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".service.MeshProxyService"
-            android:enabled="true"
-            android:exported="false"
-            android:foregroundServiceType="dataSync" />
+        android:name=".service.MeshProxyService"
+        android:enabled="true"
+        android:exported="false"
+        android:label="MeshProxy"
+        android:foregroundServiceType="dataSync"
+        android:permission="android.permission.BIND_VPN_SERVICE" />
 
     </application>
 
