@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MeshProxy</string>
+    <string name="title_client">Клиент</string>
+    <string name="title_source">Источник</string>
+    <string name="title_auto">Авто</string>
+    <string name="start_network">Запустить сеть</string>
+    <string name="stop_network">Остановить сеть</string>
+    <string name="status_stopped">Статус: Остановлено</string>
+    <string name="status_running">Статус: Работает (%s)</string>
+    <string name="traffic_stats">Передано: 0 КБ | Источников: 0</string>
+</resources>
